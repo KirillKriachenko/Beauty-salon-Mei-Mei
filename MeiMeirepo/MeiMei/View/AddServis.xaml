@@ -1,0 +1,45 @@
+﻿<Window x:Class="MeiMei.ViewModel.AddServis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:res="clr-namespace:MeiMei.Properties"
+        Title="{x:Static res:Resources.AddingServices_title}" Height="423.5" Width="522" Background="#FFFAEBD8" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="ToolWindow">
+    <Grid>
+        <ComboBox SelectedIndex="1" SelectedItem="{Binding SelectTypeOfService}" ItemsSource="{Binding TypeServiceCollection}" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="156"/>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="{x:Static res:Resources.TypeService_text}" VerticalAlignment="Top" Width="106" Height="29" FontSize="16"/>
+        <DataGrid SelectedItem="{Binding SelectedService}" HeadersVisibility="Column" ItemsSource="{Binding PricesColl}" Margin="10,148,10,0" VerticalAlignment="Top" Height="224" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="{x:Static res:Resources.NameOfServices_text}" Binding="{Binding NameServis}" Width="250*"></DataGridTextColumn>
+                <DataGridTextColumn Header="{x:Static res:Resources.PriceOfServices_text}" Binding="{Binding CostServis}" Width="250*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="NameService_tb" HorizontalAlignment="Left" Height="23" Margin="10,111,0,0" TextWrapping="Wrap" Text="{Binding NameServis}" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="Price_tb" HorizontalAlignment="Left" Height="23" Margin="207,111,0,0" TextWrapping="Wrap" Text="{Binding CostServis}" VerticalAlignment="Top" Width="156"/>
+        <Button Command="{Binding AddServisCommand}" Content="Button" HorizontalAlignment="Left" Margin="398,111,0,0" VerticalAlignment="Top" Width="92" Height="23" Background="#FFFAEBD8" BorderBrush="{x:Null}">
+            <Button.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/MeiMei;component/Assets/Add.png"></Image>
+                        <TextBlock Width="Auto" Text="{x:Static res:Resources.Add_btn}" VerticalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </Button.ContentTemplate>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="10,82,0,0" TextWrapping="Wrap" Text="{x:Static res:Resources.NameOfService_text}" VerticalAlignment="Top" Width="130" Height="29" FontSize="16"/>
+        <TextBlock Width="Auto" HorizontalAlignment="Left" Margin="207,82,0,0" TextWrapping="Wrap" Text="{x:Static res:Resources.PriceOfService_text}" VerticalAlignment="Top"  Height="29" FontSize="16"/>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="207,10,0,0" TextWrapping="Wrap" Text="{x:Static res:Resources.TypeService_add_text}" VerticalAlignment="Top" Width="156" Height="29" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="207,44,0,0" TextWrapping="Wrap" Text="{Binding TypeOfService}" VerticalAlignment="Top" Width="156"/>
+        <Button Command="{Binding AddTypeOfServiceCommand}" Content="Button" HorizontalAlignment="Left" Margin="398,44,0,0" VerticalAlignment="Top" Width="92" Height="23" Background="{x:Null}" BorderBrush="{x:Null}">
+            <Button.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/MeiMei;component/Assets/Save.png"/>
+                        <TextBlock Width="Auto" Text="{x:Static res:Resources.Create_btn}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </Button.ContentTemplate>
+        </Button>
+
+    </Grid>
+</Window>

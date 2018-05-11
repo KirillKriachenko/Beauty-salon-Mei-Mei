@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MeiMeiDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MeiMeiDBModelStoreContainer">
+    <EntitySet Name="Carts" EntityType="MeiMeiDBModel.Store.Carts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Customers" EntityType="MeiMeiDBModel.Store.Customers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employees" EntityType="MeiMeiDBModel.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Goods" EntityType="MeiMeiDBModel.Store.Goods" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Histories" EntityType="MeiMeiDBModel.Store.Histories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Schedules" EntityType="MeiMeiDBModel.Store.Schedules" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Services" EntityType="MeiMeiDBModel.Store.Services" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TypeOfServices" EntityType="MeiMeiDBModel.Store.TypeOfServices" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="TypeOfServiceService" Association="MeiMeiDBModel.Store.TypeOfServiceService">
+      <End Role="TypeOfService" EntitySet="TypeOfServices" />
+      <End Role="Service" EntitySet="Services" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Carts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIOCustomer" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Contacts" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Birthday" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Birthday" Type="datetime" Nullable="true" />
+    <Property Name="Post" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Salary" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Contacts" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Goods">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Price" Type="int" Nullable="true" />
+    <Property Name="Count" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Histories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Schedules">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="true" />
+    <Property Name="Time" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceName" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="ServiceCost" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="TypeOfServiceId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TypeOfServices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeService" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <Association Name="TypeOfServiceService">
+    <End Role="TypeOfService" Type="MeiMeiDBModel.Store.TypeOfServices" Multiplicity="1" />
+    <End Role="Service" Type="MeiMeiDBModel.Store.Services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeOfService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Service">
+        <PropertyRef Name="TypeOfServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MeiMeiDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="MeiMeiContext" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Carts" EntityType="MeiMeiDBModel.Cart" />
+          <EntitySet Name="Customers" EntityType="MeiMeiDBModel.Customer" />
+          <EntitySet Name="Employees" EntityType="MeiMeiDBModel.Employee" />
+          <EntitySet Name="Goods" EntityType="MeiMeiDBModel.Good" />
+          <EntitySet Name="Histories" EntityType="MeiMeiDBModel.History" />
+          <EntitySet Name="Schedules" EntityType="MeiMeiDBModel.Schedule" />
+          <EntitySet Name="Services" EntityType="MeiMeiDBModel.Service" />
+          <EntitySet Name="TypeOfServices" EntityType="MeiMeiDBModel.TypeOfService" />
+          <AssociationSet Name="TypeOfServiceService" Association="MeiMeiDBModel.TypeOfServiceService">
+            <End Role="TypeOfService" EntitySet="TypeOfServices" />
+            <End Role="Service" EntitySet="Services" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Cart">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FIOCustomer" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Contacts" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Birthday" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FIO" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Birthday" Type="DateTime" Precision="0" />
+          <Property Name="Post" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Salary" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Contacts" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Good">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="Count" Type="Int32" />
+        </EntityType>
+        <EntityType Name="History">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Schedule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+          <Property Name="Time" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Service">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ServiceCost" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="TypeOfService" Relationship="MeiMeiDBModel.TypeOfServiceService" FromRole="Service" ToRole="TypeOfService" />
+          <Property Type="Int32" Name="TypeOfServiceId" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TypeOfService">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TypeService" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Services" Relationship="MeiMeiDBModel.TypeOfServiceService" FromRole="TypeOfService" ToRole="Service" />
+        </EntityType>
+        <Association Name="TypeOfServiceService">
+          <End Type="MeiMeiDBModel.TypeOfService" Role="TypeOfService" Multiplicity="1" />
+          <End Type="MeiMeiDBModel.Service" Role="Service" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TypeOfService">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Service">
+              <PropertyRef Name="TypeOfServiceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MeiMeiDBModelStoreContainer" CdmEntityContainer="MeiMeiContext">
+    <EntitySetMapping Name="Carts">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDBModel.Cart)">
+        <MappingFragment StoreEntitySet="Carts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDBModel.Customer)">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FIOCustomer" ColumnName="FIOCustomer" />
+          <ScalarProperty Name="Contacts" ColumnName="Contacts" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDBModel.Employee)">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="Contacts" ColumnName="Contacts" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Goods">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDBModel.Good)">
+        <MappingFragment StoreEntitySet="Goods">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Histories">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDBModel.History)">
+        <MappingFragment StoreEntitySet="Histories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedules">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDBModel.Schedule)">
+        <MappingFragment StoreEntitySet="Schedules">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDBModel.Service)">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceCost" ColumnName="ServiceCost" />
+          <ScalarProperty Name="TypeOfServiceId" ColumnName="TypeOfServiceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeOfServices">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDBModel.TypeOfService)">
+        <MappingFragment StoreEntitySet="TypeOfServices">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeService" ColumnName="TypeService" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

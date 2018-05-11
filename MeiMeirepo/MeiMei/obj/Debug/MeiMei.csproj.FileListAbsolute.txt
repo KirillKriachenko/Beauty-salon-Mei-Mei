@@ -1,0 +1,114 @@
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\MeiMei.exe.config
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei.exe
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei.pdb
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\MeiMei.exe
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\MeiMei.pdb
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\EntityFramework.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\EntityFramework.xml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\ControlShedule.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\AddServis.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Add_Customers.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Add_Employee.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Add_Goods.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Add_Schedule.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\ClientPage.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Customer.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Employee.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Goods.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Schedule.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Service.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Employee.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Good.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\MainWindow.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\ScheduleSettings.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\ServisPage.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\ShedulePage.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\ControlShedule.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\AddServis.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Add_Customers.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Add_Employee.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Add_Goods.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Add_Schedule.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\ClientPage.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Customer.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Employee.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Goods.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Schedule.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Service.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Employee.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\Good.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\MainWindow.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\ScheduleSettings.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\ServisPage.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\View\ShedulePage.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\App.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei_Content.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei_MarkupCompile.cache
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei.g.resources
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei.Properties.Resources.resources
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei.csproj.GenerateResource.Cache
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei_MarkupCompile.lref
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Debug\ru\MeiMei.resources.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei.Properties.Resources.ru.resources
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\ru\MeiMei.resources.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Debug\MeiMei.csprojResolveAssemblyReference.cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Debug\MeiMei.exe.config
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Debug\MeiMei.exe
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Debug\MeiMei.pdb
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Debug\ru\MeiMei.resources.dll
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Debug\EntityFramework.dll
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Debug\EntityFramework.SqlServer.dll
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Debug\EntityFramework.xml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Debug\EntityFramework.SqlServer.xml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei.csprojResolveAssemblyReference.cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\ControlShedule.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Schedule.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\ControlShedule.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\AddServis.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Add_Customers.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Add_Employee.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Add_Goods.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Add_Schedule.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\ClientPage.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Customer.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Employee.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Goods.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Schedule.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Service.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Employee.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Good.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\MainWindow.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\ScheduleSettings.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\ServisPage.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\ShedulePage.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\App.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei_Content.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei_MarkupCompile.cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei_MarkupCompile.lref
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\AddServis.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Add_Customers.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Add_Employee.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Add_Goods.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Add_Schedule.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\ClientPage.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Customer.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Employee.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Goods.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Edit_Service.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Employee.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\Good.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\MainWindow.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\ScheduleSettings.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\ServisPage.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\View\ShedulePage.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei.g.resources
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei.Properties.Resources.resources
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei.Properties.Resources.ru.resources
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei.csproj.GenerateResource.Cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei.csproj.CoreCompileInputs.cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\ru\MeiMei.resources.dll
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei.exe
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Debug\MeiMei.pdb

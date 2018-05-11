@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MeiMeiDataModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MeiMeiDataModelStoreContainer">
+    <EntitySet Name="TypeOfServices" EntityType="MeiMeiDataModel.Store.TypeOfServices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Services" EntityType="MeiMeiDataModel.Store.Services" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmployeeTables" EntityType="MeiMeiDataModel.Store.EmployeeTables" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Customers" EntityType="MeiMeiDataModel.Store.Customers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Histories" EntityType="MeiMeiDataModel.Store.Histories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TypeOfGoods" EntityType="MeiMeiDataModel.Store.TypeOfGoods" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Goods" EntityType="MeiMeiDataModel.Store.Goods" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Shedules" EntityType="MeiMeiDataModel.Store.Shedules" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SheduleTimes" EntityType="MeiMeiDataModel.Store.SheduleTimes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SheduleColumns" EntityType="MeiMeiDataModel.Store.SheduleColumns" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GoodHistories" EntityType="MeiMeiDataModel.Store.GoodHistories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmployeeHistories" EntityType="MeiMeiDataModel.Store.EmployeeHistories" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="TypeOfServiceService" Association="MeiMeiDataModel.Store.TypeOfServiceService">
+      <End Role="TypeOfService" EntitySet="TypeOfServices" />
+      <End Role="Service" EntitySet="Services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomersHistory" Association="MeiMeiDataModel.Store.FK_CustomersHistory">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="History" EntitySet="Histories" />
+    </AssociationSet>
+    <AssociationSet Name="TypeOfGoodsGoods" Association="MeiMeiDataModel.Store.TypeOfGoodsGoods">
+      <End Role="TypeOfGoods" EntitySet="TypeOfGoods" />
+      <End Role="Goods" EntitySet="Goods" />
+    </AssociationSet>
+    <AssociationSet Name="EmployeeTableShedule" Association="MeiMeiDataModel.Store.EmployeeTableShedule">
+      <End Role="EmployeeTable" EntitySet="EmployeeTables" />
+      <End Role="Shedule" EntitySet="Shedules" />
+    </AssociationSet>
+    <AssociationSet Name="EmployeeTableEmployeeHistory" Association="MeiMeiDataModel.Store.EmployeeTableEmployeeHistory">
+      <End Role="EmployeeTable" EntitySet="EmployeeTables" />
+      <End Role="EmployeeHistory" EntitySet="EmployeeHistories" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TypeOfServices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeService" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ServicePrice" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TypeOfServiceId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmployeeTables">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Post" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Birthday" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Contacts" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PersonalData" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Salary" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Photo" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Contakts" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Birthday" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Notes" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Photo" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Histories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomersId" Type="int" Nullable="false" />
+    <Property Name="ServiceName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ServiceCost" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Data" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TypeOfGoods">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeGoods" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Goods">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GoodName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="GoodPrice" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TypeOfGoodsId" Type="int" Nullable="false" />
+    <Property Name="Count" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shedules">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServicePrice" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ServiceName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Data" Type="datetime" Nullable="true" />
+    <Property Name="Time" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="CustomerName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmployeeTableId" Type="int" Nullable="false" />
+    <Property Name="Size" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Column" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Room" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="SheduleTimes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Time" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SheduleColumns">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ColumnName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GoodHistories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Data" Type="datetime" Nullable="false" />
+    <Property Name="Price" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="GoodName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Customer" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmployeeHistories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Data" Type="datetime" Nullable="true" />
+    <Property Name="ServiceName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Cost" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmployeeTableId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="TypeOfServiceService">
+    <End Role="TypeOfService" Type="MeiMeiDataModel.Store.TypeOfServices" Multiplicity="1" />
+    <End Role="Service" Type="MeiMeiDataModel.Store.Services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeOfService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Service">
+        <PropertyRef Name="TypeOfServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomersHistory">
+    <End Role="Customers" Type="MeiMeiDataModel.Store.Customers" Multiplicity="1" />
+    <End Role="History" Type="MeiMeiDataModel.Store.Histories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="CustomersId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TypeOfGoodsGoods">
+    <End Role="TypeOfGoods" Type="MeiMeiDataModel.Store.TypeOfGoods" Multiplicity="1" />
+    <End Role="Goods" Type="MeiMeiDataModel.Store.Goods" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeOfGoods">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goods">
+        <PropertyRef Name="TypeOfGoodsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EmployeeTableShedule">
+    <End Role="EmployeeTable" Type="MeiMeiDataModel.Store.EmployeeTables" Multiplicity="1" />
+    <End Role="Shedule" Type="MeiMeiDataModel.Store.Shedules" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmployeeTable">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Shedule">
+        <PropertyRef Name="EmployeeTableId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EmployeeTableEmployeeHistory">
+    <End Role="EmployeeTable" Type="MeiMeiDataModel.Store.EmployeeTables" Multiplicity="1" />
+    <End Role="EmployeeHistory" Type="MeiMeiDataModel.Store.EmployeeHistories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmployeeTable">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EmployeeHistory">
+        <PropertyRef Name="EmployeeTableId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

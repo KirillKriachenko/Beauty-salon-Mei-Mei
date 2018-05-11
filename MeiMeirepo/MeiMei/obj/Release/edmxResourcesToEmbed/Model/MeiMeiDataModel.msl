@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MeiMeiDataModelStoreContainer" CdmEntityContainer="MeiMeiContext">
+    <EntitySetMapping Name="TypeOfServices">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.TypeOfService)">
+        <MappingFragment StoreEntitySet="TypeOfServices">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeService" ColumnName="TypeService" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.Service)">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServicePrice" ColumnName="ServicePrice" />
+          <ScalarProperty Name="TypeOfServiceId" ColumnName="TypeOfServiceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeTables">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.EmployeeTable)">
+        <MappingFragment StoreEntitySet="EmployeeTables">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Contacts" ColumnName="Contacts" />
+          <ScalarProperty Name="PersonalData" ColumnName="PersonalData" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.Customers)">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="Contakts" ColumnName="Contakts" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Histories">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.History)">
+        <MappingFragment StoreEntitySet="Histories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomersId" ColumnName="CustomersId" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceCost" ColumnName="ServiceCost" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeOfGoods">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.TypeOfGoods)">
+        <MappingFragment StoreEntitySet="TypeOfGoods">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeGoods" ColumnName="TypeGoods" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Goods">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.Goods)">
+        <MappingFragment StoreEntitySet="Goods">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="GoodName" ColumnName="GoodName" />
+          <ScalarProperty Name="GoodPrice" ColumnName="GoodPrice" />
+          <ScalarProperty Name="TypeOfGoodsId" ColumnName="TypeOfGoodsId" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shedules">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.Shedule)">
+        <MappingFragment StoreEntitySet="Shedules">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServicePrice" ColumnName="ServicePrice" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="EmployeeTableId" ColumnName="EmployeeTableId" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Column" ColumnName="Column" />
+          <ScalarProperty Name="Room" ColumnName="Room" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SheduleTimes">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.SheduleTime)">
+        <MappingFragment StoreEntitySet="SheduleTimes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SheduleColumns">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.SheduleColumn)">
+        <MappingFragment StoreEntitySet="SheduleColumns">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ColumnName" ColumnName="ColumnName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GoodHistories">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.GoodHistory)">
+        <MappingFragment StoreEntitySet="GoodHistories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="GoodName" ColumnName="GoodName" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeHistories">
+      <EntityTypeMapping TypeName="IsTypeOf(MeiMeiDataModel.EmployeeHistory)">
+        <MappingFragment StoreEntitySet="EmployeeHistories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="EmployeeTableId" ColumnName="EmployeeTableId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

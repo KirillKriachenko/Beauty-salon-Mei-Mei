@@ -1,0 +1,117 @@
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\MeiMei.exe.config
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\MeiMei.exe
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\MeiMei.pdb
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\ru\MeiMei.resources.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\EntityFramework.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\EntityFramework.xml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\ControlShedule.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Goods.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Schedule.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Service.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\ControlShedule.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\AddServis.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Add_Customers.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Add_Employee.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Add_Goods.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Add_Schedule.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\ClientPage.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Customer.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Employee.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Goods.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Schedule.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Service.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Employee.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Good.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\MainWindow.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\ScheduleSettings.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\ServisPage.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\ShedulePage.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\App.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei_Content.g.cs
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei_MarkupCompile.cache
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei_MarkupCompile.lref
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\AddServis.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Add_Customers.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Add_Employee.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Add_Goods.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Add_Schedule.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\ClientPage.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Customer.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Edit_Employee.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Employee.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\Good.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\MainWindow.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\ScheduleSettings.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\ServisPage.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\View\ShedulePage.baml
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei.g.resources
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei.Properties.Resources.resources
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei.Properties.Resources.ru.resources
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei.csproj.GenerateResource.Cache
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\ru\MeiMei.resources.dll
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei.exe
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei.pdb
+C:\Users\Kriachenko-ka\Documents\Visual Studio 2012\Projects\MeiMeirepo\MeiMei\obj\Release\MeiMei.csprojResolveAssemblyReference.cache
+K:\С флешки 2\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\MeiMei.exe.config
+K:\С флешки 2\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.exe
+K:\С флешки 2\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.pdb
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\MeiMei.exe.config
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\MeiMei.exe
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\MeiMei.pdb
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\ru\MeiMei.resources.dll
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\EntityFramework.dll
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\EntityFramework.SqlServer.dll
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\EntityFramework.xml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\bin\Release\EntityFramework.SqlServer.xml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.csprojResolveAssemblyReference.cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\ControlShedule.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Schedule.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\ControlShedule.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\AddServis.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Add_Customers.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Add_Employee.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Add_Goods.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Add_Schedule.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\ClientPage.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Customer.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Employee.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Goods.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Schedule.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Service.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Employee.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Good.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\MainWindow.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\ScheduleSettings.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\ServisPage.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\ShedulePage.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\App.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei_Content.g.cs
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei_MarkupCompile.cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei_MarkupCompile.lref
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\AddServis.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Add_Customers.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Add_Employee.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Add_Goods.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Add_Schedule.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\ClientPage.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Customer.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Employee.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Goods.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Edit_Service.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Employee.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\Good.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\MainWindow.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\ScheduleSettings.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\ServisPage.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\View\ShedulePage.baml
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.g.resources
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.Properties.Resources.resources
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.Properties.Resources.ru.resources
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.csproj.GenerateResource.Cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.csproj.CoreCompileInputs.cache
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\ru\MeiMei.resources.dll
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.exe
+D:\ForJob\MeiMei BuetySalon\Relize\MeiMeirepo\MeiMei\obj\Release\MeiMei.pdb

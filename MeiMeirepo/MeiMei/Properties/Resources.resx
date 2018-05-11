@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add_btn" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CategoryServices_text" xml:space="preserve">
+    <value>Category services</value>
+  </data>
+  <data name="CustomerWind_text_addInfo" xml:space="preserve">
+    <value>Additional information</value>
+  </data>
+  <data name="CustomerWind_text_Info" xml:space="preserve">
+    <value>Customer Information :</value>
+  </data>
+  <data name="Customer_text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Data_text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Delete_btn" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Edit_btn" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EmployeeWind_text_Birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="EmployeeWind_text_Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="EmployeeWind_text_FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="EmployeeWind_text_Function" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="EmployeeWind_text_Info" xml:space="preserve">
+    <value>Information about employee</value>
+  </data>
+  <data name="EmployeeWind_text_PassportDetails" xml:space="preserve">
+    <value>Passport details :</value>
+  </data>
+  <data name="EmployeeWind_text_Phone" xml:space="preserve">
+    <value>Phone :</value>
+  </data>
+  <data name="MainWind_btn_Customer" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="MainWind_btn_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="MainWind_btn_Goods" xml:space="preserve">
+    <value>Goods</value>
+  </data>
+  <data name="MainWind_btn_Service" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="MainWind_btn_Shedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="NameOfServices_text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="NumberGoods_text" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="PriceOfServices_text" xml:space="preserve">
+    <value>Сost</value>
+  </data>
+  <data name="Sell_btn_text" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Settings_btn" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="AddGoodWind_AddTypeOfGood_text" xml:space="preserve">
+    <value>Add type of goods</value>
+  </data>
+  <data name="AddGoodWind_TypeOfGood_text" xml:space="preserve">
+    <value>Type of goods</value>
+  </data>
+  <data name="AddPhoto_text_btn" xml:space="preserve">
+    <value>Add photo</value>
+  </data>
+  <data name="Apply_btn" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Create_btn" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="NameOfGood_text" xml:space="preserve">
+    <value>Name of goods</value>
+  </data>
+  <data name="NameOfService_text" xml:space="preserve">
+    <value>Name of service</value>
+  </data>
+  <data name="PriceOfGood_text" xml:space="preserve">
+    <value>Price of goods</value>
+  </data>
+  <data name="PriceOfService_text" xml:space="preserve">
+    <value>Price of service</value>
+  </data>
+  <data name="SettingsWind_AddPlace_text" xml:space="preserve">
+    <value>Add place</value>
+  </data>
+  <data name="SettingsWind_EndDay" xml:space="preserve">
+    <value>End of the day</value>
+  </data>
+  <data name="SettingsWind_Place_text" xml:space="preserve">
+    <value>There is a place</value>
+  </data>
+  <data name="SettingsWind_StartDay" xml:space="preserve">
+    <value>The beginning of the day</value>
+  </data>
+  <data name="TypeService_add_text" xml:space="preserve">
+    <value>Add type of service</value>
+  </data>
+  <data name="TypeService_text" xml:space="preserve">
+    <value>Type of service</value>
+  </data>
+  <data name="From_txt" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Time_txt" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="To_txt" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="EditPhoto_btn" xml:space="preserve">
+    <value>Change photo</value>
+  </data>
+  <data name="AddingEmployee_Title" xml:space="preserve">
+    <value>Adding a employee</value>
+  </data>
+  <data name="AddingGoods_Title" xml:space="preserve">
+    <value>Adding a goods</value>
+  </data>
+  <data name="AddingSchedule_title" xml:space="preserve">
+    <value>Adding a schedule</value>
+  </data>
+  <data name="AddingServices_title" xml:space="preserve">
+    <value>Adding a services</value>
+  </data>
+  <data name="AddingСlient_Title" xml:space="preserve">
+    <value>Adding a client</value>
+  </data>
+  <data name="Attention_message" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="EditingClient_title" xml:space="preserve">
+    <value>Editing a customrs</value>
+  </data>
+  <data name="EditingEmployee_title" xml:space="preserve">
+    <value>Editing a emplouee</value>
+  </data>
+  <data name="FirstSelectObject_message" xml:space="preserve">
+    <value>First, select the object</value>
+  </data>
+  <data name="Сompleted_message" xml:space="preserve">
+    <value>Сompleted</value>
+  </data>
+  <data name="FirstFill_message" xml:space="preserve">
+    <value>First you fill in all fields</value>
+  </data>
+  <data name="RemovedSuccessfully_message" xml:space="preserve">
+    <value>Removed successfully </value>
+  </data>
+  <data name="SelectServiceType_message" xml:space="preserve">
+    <value>Select the service type</value>
+  </data>
+  <data name="StartEnterDay_message" xml:space="preserve">
+    <value>First, enter the start and end of the working day</value>
+  </data>
+  <data name="Save_message" xml:space="preserve">
+    <value>Save successfully</value>
+  </data>
+  <data name="Additionally_text" xml:space="preserve">
+    <value>Additionally</value>
+  </data>
+  <data name="EditingServices_text" xml:space="preserve">
+    <value>Editing services</value>
+  </data>
+  <data name="EditProduct_text" xml:space="preserve">
+    <value>Edit product</value>
+  </data>
+  <data name="Manufacturer_text" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+</root>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MeiMeiDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MeiMeiContext" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Carts" EntityType="MeiMeiDBModel.Cart" />
+    <EntitySet Name="Customers" EntityType="MeiMeiDBModel.Customer" />
+    <EntitySet Name="Employees" EntityType="MeiMeiDBModel.Employee" />
+    <EntitySet Name="Goods" EntityType="MeiMeiDBModel.Good" />
+    <EntitySet Name="Histories" EntityType="MeiMeiDBModel.History" />
+    <EntitySet Name="Schedules" EntityType="MeiMeiDBModel.Schedule" />
+    <EntitySet Name="Services" EntityType="MeiMeiDBModel.Service" />
+    <EntitySet Name="TypeOfServices" EntityType="MeiMeiDBModel.TypeOfService" />
+    <AssociationSet Name="TypeOfServiceService" Association="MeiMeiDBModel.TypeOfServiceService">
+      <End Role="TypeOfService" EntitySet="TypeOfServices" />
+      <End Role="Service" EntitySet="Services" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Cart">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FIOCustomer" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Contacts" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Birthday" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Birthday" Type="DateTime" Precision="0" />
+    <Property Name="Post" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Salary" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Contacts" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Good">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Count" Type="Int32" />
+  </EntityType>
+  <EntityType Name="History">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Schedule">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Time" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ServiceCost" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="TypeOfService" Relationship="MeiMeiDBModel.TypeOfServiceService" FromRole="Service" ToRole="TypeOfService" />
+    <Property Type="Int32" Name="TypeOfServiceId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TypeOfService">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeService" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Services" Relationship="MeiMeiDBModel.TypeOfServiceService" FromRole="TypeOfService" ToRole="Service" />
+  </EntityType>
+  <Association Name="TypeOfServiceService">
+    <End Type="MeiMeiDBModel.TypeOfService" Role="TypeOfService" Multiplicity="1" />
+    <End Type="MeiMeiDBModel.Service" Role="Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeOfService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Service">
+        <PropertyRef Name="TypeOfServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

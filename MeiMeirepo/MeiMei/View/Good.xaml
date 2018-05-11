@@ -1,0 +1,120 @@
+﻿<Page x:Class="MeiMei.ViewModel.Good"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:res="clr-namespace:MeiMei.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="406" d:DesignWidth="611"
+Title="Good" Background="#FFFAEBD8">
+
+    <Grid>
+        <Button Command="{Binding AddGoodOpenCommand}" Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="112" Height="37" BorderBrush="{x:Null}" Background="#FFFAEBD8">
+            <Button.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/MeiMei;component/Assets/Add.png">
+                            <Image.OpacityMask>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black" Offset="0"/>
+                                    <GradientStop Color="White" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Image.OpacityMask>
+                        </Image>
+                        <TextBlock Width="Auto" Text="{x:Static res:Resources.Add_btn}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </Button.ContentTemplate>
+        </Button>
+        <Button Command="{Binding EditGoodCommand}" Content="Button" HorizontalAlignment="Left" Margin="127,10,0,0" VerticalAlignment="Top" Width="112" Height="37" BorderBrush="{x:Null}" Background="#FFFAEBD8">
+            <Button.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/MeiMei;component/Assets/Edit.png">
+                            <Image.OpacityMask>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black" Offset="0"/>
+                                    <GradientStop Color="White" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Image.OpacityMask>
+                        </Image>
+                        <TextBlock Width="Auto" Text="{x:Static res:Resources.Edit_btn}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </Button.ContentTemplate>
+        </Button>
+        <Button Command="{Binding DeleteGoodCommand}" Content="Button" HorizontalAlignment="Left" Margin="244,10,0,0" VerticalAlignment="Top" Width="112" Height="37" BorderBrush="{x:Null}" Background="#FFFAEBD8">
+            <Button.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/MeiMei;component/Assets/Remove.png">
+                            <Image.OpacityMask>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black" Offset="0"/>
+                                    <GradientStop Color="White" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Image.OpacityMask>
+                        </Image>
+                        <TextBlock Width="Auto" Text="{x:Static res:Resources.Delete_btn}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </Button.ContentTemplate>
+        </Button>
+
+        
+
+        <Grid Margin="0,52,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="85*"/>
+                <RowDefinition Height="92*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="141*"/>
+                <ColumnDefinition Width="311*"/>
+                <ColumnDefinition Width="159*"/>
+            </Grid.ColumnDefinitions>
+            <!--<TextBox Height="23" Margin="4,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>-->
+            <ComboBox SelectedItem="{Binding SelectedTypeOfGoods}" ItemsSource="{Binding CompColl}" Margin="4,0,0,0" VerticalAlignment="Top" IsEditable="True" IsTextSearchEnabled="True"/>
+            <ListBox SelectedIndex="0" SelectedItem="{Binding SelectedTypeOfGoods}" ItemsSource="{Binding CompColl, UpdateSourceTrigger=PropertyChanged}" Margin="4,28,0,10" Grid.RowSpan="2"/>
+            <DataGrid IsReadOnly="True" Background="#FFFAEBD8" AutoGenerateColumns="False" HeadersVisibility="Column" CanUserDeleteRows="False" CanUserAddRows="False" SelectedItem="{Binding SelectedGoods}" ItemsSource="{Binding GoodsColl}" Grid.Column="1" Margin="10,0,7,2" BorderBrush="#FF688CAF">
+                <DataGrid.Columns>
+                    <DataGridTextColumn CanUserSort="False" CanUserResize="False" Header="{x:Static res:Resources.NameOfServices_text}" Binding="{Binding GoodName}" Width="200*"></DataGridTextColumn>
+                    <DataGridTextColumn CanUserSort="False" CanUserResize="False" Header="{x:Static res:Resources.PriceOfServices_text}" Binding="{Binding GoodPrice}" Width="200*"></DataGridTextColumn>
+                    <DataGridTextColumn CanUserSort="False" CanUserResize="False" Header="{x:Static res:Resources.NumberGoods_text}" Binding="{Binding Count}" Width="100*"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <DataGrid IsReadOnly="True"  AutoGenerateColumns="False" HeadersVisibility="Column" CanUserDeleteRows="False" CanUserAddRows="False" ItemsSource="{Binding GoodsHistoryColl}" Grid.Column="1" Margin="10,3,10,10" Grid.ColumnSpan="2" Grid.Row="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn CanUserSort="False" CanUserResize="False" Header="{x:Static res:Resources.NameOfServices_text}" Binding="{Binding GoodName}" Width="200*"></DataGridTextColumn>
+                    <DataGridTextColumn CanUserSort="False" CanUserResize="False" Header="{x:Static res:Resources.PriceOfServices_text}" Binding="{Binding Price}" Width="200*"></DataGridTextColumn>
+                    <DataGridTextColumn CanUserSort="False" CanUserResize="False" Header="{x:Static res:Resources.Data_text}" Binding="{Binding Data}" Width="200*"></DataGridTextColumn>
+                    <DataGridTextColumn CanUserSort="False" CanUserResize="False" Header="{x:Static res:Resources.Customer_text}" Binding="{Binding Customer}" Width="200*"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <TextBox Grid.Column="2" Margin="91,62,10,0" TextWrapping="Wrap" Text="{Binding Count, NotifyOnTargetUpdated=True,UpdateSourceTrigger=PropertyChanged}" Height="23" VerticalAlignment="Top"/>
+            <TextBlock Grid.Column="2" Margin="7,63,0,0" TextWrapping="Wrap" Text="{x:Static res:Resources.NumberGoods_text}" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left" Width="67"/>
+            <TextBlock Grid.Column="2" Margin="7,90,113,0" TextWrapping="Wrap" Text="{x:Static res:Resources.PriceOfServices_text}" Height="16" VerticalAlignment="Top"/>
+            <TextBlock Grid.Column="2" Margin="80,90,10,0" TextWrapping="Wrap" Text="{Binding Price}" Height="16" VerticalAlignment="Top"/>
+            <ComboBox Text="{Binding Customer, Mode=TwoWay}" SelectedItem="{Binding SelectedCustomers}" ItemsSource="{Binding CustomerColl}" Grid.Column="2" Margin="7,28,32,0" IsEditable ="True" Height="22" VerticalAlignment="Top"/>
+            <TextBlock Grid.Column="2" Margin="7,7,94,0" TextWrapping="Wrap" Text="{x:Static res:Resources.MainWind_btn_Customer}" Height="16" VerticalAlignment="Top"/>
+
+            <Button Command="{Binding SellGoods}" Content="Button" Margin="0,123,10,0" BorderBrush="{x:Null}" Background="#FFFAEBD8" Grid.Column="2" HorizontalAlignment="Right" Width="94" Height="37" VerticalAlignment="Top">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/MeiMei;component/Assets/Tovaru.png">
+                                <Image.OpacityMask>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="Black" Offset="0"/>
+                                        <GradientStop Color="White" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Image.OpacityMask>
+                            </Image>
+                            <TextBlock Width="50" Text="{x:Static res:Resources.Sell_btn_text}" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Page>
