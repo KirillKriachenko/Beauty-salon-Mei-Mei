@@ -30,8 +30,8 @@
 
 
 ## Screenshots
-![Example screenshot](.MeiMeirepo/MeiMei/Assets/MeiMei_Photo.PNG)
-![Example screenshot](.MeiMeirepo/MeiMei/Assets/MeiMei_Photo2.PNG)
+![Example screenshot](./MeiMeirepo/MeiMei/Assets/MeiMei_Photo.PNG)
+![Example screenshot](./MeiMeirepo/MeiMei/Assets/MeiMei_Photo2.PNG)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
